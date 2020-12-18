@@ -1,0 +1,25 @@
+<div class="flag-panel-wrapper" id="flag-panel-wrapper" style="height: 100%; min-height: 100%;">
+
+
+    <!-- PDF Header-->
+    <div class="flag-panel-header" ondblclick="expandCollapse('flag-panel')">
+        <div class="flag-panel-header-left">
+            <img src="/assets/dist/img/icons/chat-head-icon.png">
+            <span>Pdf's</span>
+        </div>
+
+        <div class="flag-panel-header-right">
+            <a href="javascript:void(0)" onclick="$('#flag-panel-body').toggle()" id="flag-panel-collapse-btn"><i class="fa fa-angle-down"></i></a>
+            <a href="javascript:void(0)" onclick="closePanel('flag-panel-grid')" id="flag-panel-close-btn"><i class="fa fa-close"></i></a>
+        </div>
+
+    </div>
+
+
+    <!-- PDF panel Body-->
+    <div class="flag-panel-body" id="flag-panel-body" style="display: block;">
+
+       Flag Panel Content
+    </div>
+
+</div>
